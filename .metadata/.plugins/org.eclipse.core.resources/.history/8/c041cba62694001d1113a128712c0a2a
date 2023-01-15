@@ -15,14 +15,12 @@
 	  //RequestDispatcher rd=request.getRequestDispatcher("sucess.jsp");
 	  //rd.forward(request, response);
 	  response.sendRedirect("sucess.jsp");
-	 
   }
   else
   {
-	 // RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
-	  //rd.include(request, response);
-	  //out.println("<h1 style='color:red'>LoginFail!!!</h1>");
-	  response.sendError(404,"Please check the link");
+	  RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
+	  rd.include(request, response);
+	  out.println("<h1 style='color:red'>LoginFail!!!</h1>");
   }
   
   

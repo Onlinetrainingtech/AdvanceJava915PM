@@ -22,7 +22,6 @@
 	 // RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
 	  //rd.include(request, response);
 	  //out.println("<h1 style='color:red'>LoginFail!!!</h1>");
-	  response.sendError(404,"Please check the link");
   }
   
   

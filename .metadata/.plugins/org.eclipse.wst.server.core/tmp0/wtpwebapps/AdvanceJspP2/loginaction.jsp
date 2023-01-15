@@ -10,8 +10,23 @@
 <%
   String u1=request.getParameter("uname");
   String p1=request.getParameter("pass");
+  if(u1.equals("admin")&&p1.equals("admin"))
+  {
+	  //RequestDispatcher rd=request.getRequestDispatcher("sucess.jsp");
+	  //rd.forward(request, response);
+	  response.sendRedirect("sucess.jsp");
+	 
+  }
+  else
+  {
+	 // RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
+	  //rd.include(request, response);
+	  //out.println("<h1 style='color:red'>LoginFail!!!</h1>");
+	  response.sendError(404,"Please check the link");
+  }
   
-  out.println("Welcome to First Program is::"+u1+""+p1);
+  
+  //out.println("Welcome to First Program is::"+u1+""+p1);
 %>
 </body>
 </html>

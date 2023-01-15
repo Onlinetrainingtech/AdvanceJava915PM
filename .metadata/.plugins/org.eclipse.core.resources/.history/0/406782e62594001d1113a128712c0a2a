@@ -12,17 +12,14 @@
   String p1=request.getParameter("pass");
   if(u1.equals("admin")&&p1.equals("admin"))
   {
-	  //RequestDispatcher rd=request.getRequestDispatcher("sucess.jsp");
-	  //rd.forward(request, response);
-	  response.sendRedirect("sucess.jsp");
-	 
+	  RequestDispatcher rd=request.getRequestDispatcher("sucess.jsp");
+	  rd.forward(request, response);
   }
   else
   {
-	 // RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
-	  //rd.include(request, response);
-	  //out.println("<h1 style='color:red'>LoginFail!!!</h1>");
-	  response.sendError(404,"Please check the link");
+	  RequestDispatcher rd=request.getRequestDispatcher("error.jsp");
+	  rd.include(request, response);
+	  out.println("<h1 style='color:red'>LoginFail!!!</h1>");
   }
   
   

@@ -1,0 +1,13 @@
+127.0.0.1 - - [14/Jan/2023:21:22:36 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:22:43 +0530] "GET /AdvanceJspP2/index.jsp HTTP/1.1" 200 298
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:22:44 +0530] "GET /favicon.ico HTTP/1.1" 404 1014
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:22:56 +0530] "GET /AdvanceJspP2/loginaction.jsp?uname=admin&pass=admin%40123 HTTP/1.1" 200 178
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:39:25 +0530] "GET /AdvanceJspP2/index.jsp HTTP/1.1" 200 298
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:39:42 +0530] "GET /AdvanceJspP2/loginaction.jsp?uname=admin&pass=azar%40123 HTTP/1.1" 500 2781
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:40:24 +0530] "GET /AdvanceJspP2/loginaction.jsp?uname=admin&pass=azar%40123 HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:40:36 +0530] "GET /AdvanceJspP2/loginaction.jsp?uname=admin&pass=admin HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:47:57 +0530] "GET /AdvanceJspP2/index.jsp HTTP/1.1" 200 298
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:48:08 +0530] "GET /AdvanceJspP2/loginaction.jsp?uname=admin&pass=admin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:48:09 +0530] "GET /AdvanceJspP2/sucess.jsp HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:49:59 +0530] "GET /AdvanceJspP2/index.jsp HTTP/1.1" 200 298
+0:0:0:0:0:0:0:1 - - [14/Jan/2023:21:50:08 +0530] "GET /AdvanceJspP2/loginaction.jsp?uname=admin%40123&pass=admin HTTP/1.1" 404 1032
