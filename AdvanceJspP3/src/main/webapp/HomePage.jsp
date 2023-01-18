@@ -7,10 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="loginaction.jsp">
-UserName:<input type="text" name="uname"/>
-Password:<input type="text" name="pass"/>
-<input type="submit" value="Login"/>
-</form>
+<%
+
+HttpSession session1=request.getSession();
+
+String f1=(String)session1.getAttribute("k1");
+
+out.println("Welcome to the Home Page::"+f1);
+
+%>
 </body>
 </html>

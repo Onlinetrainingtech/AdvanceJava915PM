@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Welcome to the Home Page!!!</h1>
+<form action="httpaction.jsp">
+EmailId:<input type="text" name="email"/>
+Pass:<input type="text" name="pass"/>
+<input type="submit" value="ClickHere"/>
+</form>
 </body>
 </html>
