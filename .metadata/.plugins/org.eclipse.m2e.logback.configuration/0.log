@@ -76,3 +76,5 @@
 2023-01-27 21:49:50,904 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ConveyLabOnline\AdvanceJava915PM\HibernateMaven\src\main\resources
 2023-01-27 21:49:50,911 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-01-27 21:49:50,912 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ConveyLabOnline\AdvanceJava915PM\HibernateMaven\src\test\resources
+2023-01-28 21:27:26,738 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-01-28 21:27:33,315 [Worker-1: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null

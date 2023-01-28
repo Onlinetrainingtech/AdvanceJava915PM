@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+
+<class name="str.Vendor" table="vendor">
+
+<id name="vendorId" column="venid"/>
+
+<property name="vendorName" column="vendname"/>
+
+<set name="children" cascade="all">
+
+<key column="forevenid"/>
+
+<one-to-many class="str.Customer"/>
+
+</set>
+
+</class>
+
+</hibernate-mapping>
