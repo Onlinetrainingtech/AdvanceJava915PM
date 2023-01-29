@@ -22,6 +22,7 @@ public class ForOurLogic {
 		SessionFactory factory=cfg.buildSessionFactory();
 		Session session=factory.openSession();
 		
+
 		Criteria crit=session.createCriteria(Product.class);
 		
 		Criterion cn=Restrictions.lt("price",new Double(16000));
@@ -44,12 +45,13 @@ public class ForOurLogic {
 			
 		}
 		
-		Product p=new Product();
-		p.setProductId(1001);
-		p.setProName("apple");
-		p.setPrice(1000);
 		
-		session.save(p);
+//		Product p=new Product();
+//		p.setProductId(1001);
+//		p.setProName("apple");
+//		p.setPrice(1000);
+//		
+//		session.save(p);
 		session.close();
 		
 		factory.close();

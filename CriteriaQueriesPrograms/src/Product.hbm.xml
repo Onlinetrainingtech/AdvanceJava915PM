@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<hibernat-mapping>
+
+
+<hibernate-mapping>
 
 <class name="str.Product" table="products">
 
-<id name="productId" column="pid">
+<id name="productId" column="pid"></id>
 
-<property name="proName" column="pname"></property>
+<property name="proName" column="pname" length="10"/>
 
-<property name="price"></property>
-
-</id>
+<property name="price"/>
 
 </class>
 
-</hibernat-mapping>
+</hibernate-mapping>
