@@ -5,8 +5,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+ 
 </head>
 <body>
+<h3>Welcome to Maven Application</h3>
+
+<jsp:include page="header.jsp"></jsp:include>
 
 </body>
 </html>
